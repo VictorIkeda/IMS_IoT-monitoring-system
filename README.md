@@ -4,6 +4,8 @@ Mini temperature, humidity and air quality monitoring system for IOT system, low
 **Download all files**
  * Open _360.ino in ARDUINO IDE
 
+![](https://github.com/VictorIkeda/IMS_IoT-monitoring-system/blob/main/Images/screenshot.png?raw=true)
+
 ### **What you need**
 
 * Sensor DHT11 for temperature and Humidity.
@@ -11,9 +13,8 @@ Mini temperature, humidity and air quality monitoring system for IOT system, low
 * HC-05 Bluetooth module to be able to view the Arduino serial via the smartphone
 * ESP8266 ESP-01 WiFi module to connect the system to the router and access via computer or smartphone
 
-
-
-![](https://github.com/VictorIkeda/IMS_IoT-monitoring-system/blob/main/Images/arduinopf.jpg?raw=true)
+#### **Instructions**
+After assembling the system shown below, do not forget to enter the SSID and password in the code.
 
 ## Sensor DHT11
 ![](https://github.com/VictorIkeda/IMS_IoT-monitoring-system/blob/main/Images/dht11S.png?raw=true)
