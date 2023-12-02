@@ -13,7 +13,7 @@ Mini temperature, humidity and air quality monitoring system for IOT system, low
 * HC-05 Bluetooth module to be able to view the Arduino serial via the smartphone
 * ESP8266 ESP-01 WiFi module to connect the system to the router and access via computer or smartphone
 
-#### **Instructions**
+## **Instructions**
 After assembling the system shown below, do not forget to enter the SSID and password in the code.
 
 ## Sensor DHT11
