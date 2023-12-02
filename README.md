@@ -19,11 +19,12 @@ Connecting the sensor's analog pin to the Arduino's A5 analog pin and connecting
 ## Sensor MQ-135
 ![](https://github.com/VictorIkeda/IMS_IoT-monitoring-system/blob/main/Images/mqs.png?raw=true)
 
-Sensor will capture CO2. To identify air quality, it will be classified as good, average and bad. The MQ-135 contains 4 pins and only 3 will be used in connection with the Arduino, which are the power pins and the analog pin, which will be connected to the Arduino input A0. Every time the sensor starts, the values are reset for accurate results. The values that the sensor returns for the CO2 calculation is the PPM. From a test carried out by placing the sensor near the car's exhaust, it was defined as ppm < 10 poor quality, ppm < 500 medium and ppm >= 500 as good.
+Sensor will capture CO2. To identify air quality, it will be classified as good, average and bad. The MQ-135 contains 4 pins and only 3 will be used in connection with the Arduino, which are the power pins and the analog pin, which will be connected to the Arduino input A0. Every time the sensor starts, the values are reset for accurate results.
+  The values that the sensor returns for the CO2 calculation is the PPM. From a test carried out by placing the sensor near the car's exhaust, it was defined as ppm < 10 poor quality, ppm < 500 medium and ppm >= 500 as good.
 
 `void setup(){
   Serial.begin(9600);
-  delay(1000);
+delay(1000);
   dht.begin();
   float rzero = gasSensor.getRZero();// Returns the value that must be calibrated
   delay(3000);
